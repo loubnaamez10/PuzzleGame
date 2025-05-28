@@ -1,0 +1,67 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/*en général */
+.root {
+	-fx-background-color: linear-gradient(to bottom right, #dfe9f3, #ffffff);
+	-fx-font-family: "Times New Roman", serif;
+}
+
+/*boutons généreaux */
+.button {
+    -fx-background-color: linear-gradient(to bottom right, #6a11cb, #2575fc);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 15px;
+    -fx-background-radius: 12px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom right, #2575fc, #6a11cb);
+}
+
+/*boutons des tuiles du puzzle */
+.tile-button {
+    -fx-background-color: linear-gradient(to top right, #fbc2eb, #a6c1ee);
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2px;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-background-radius: 8px;
+}
+
+.tile-button:hover {
+    -fx-background-color: linear-gradient(to top right, #a6c1ee, #fbc2eb);
+}
+
+/* Labels pour Timer, Moves, Score */
+.label {
+    -fx-font-size: 15px;
+    -fx-text-fill: #333;
+}
+
+/* Layout des VBox */
+.vbox {
+    -fx-alignment: center;
+    -fx-spacing: 15px;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-font-size: 14px;
+    -fx-background-radius: 8px;
+    -fx-background-color:linear-gradient(to bottom right, #dfe9f3, #ffffff);
+    -fx-border-color: black;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 4px;
+}
+
+/* Scene title */
+.stage {
+    -fx-font-size: 24px;
+    -fx-text-fill: #444;
+}
+
